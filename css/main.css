@@ -1,0 +1,86 @@
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+}
+
+.header-social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 50px;
+    background-color: #61f2f5;
+}
+
+.header-social-media__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin-right: 70px;
+    list-style: none;
+}
+
+.header-social-media__icons li {
+    display: inline;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.header-social-media__icons li:nth-child(1) {
+    background-image: url("../assets/social-icons/001-facebook.svg");
+
+}
+
+.header-social-media__icons li:nth-child(2) {
+    background-image: url("../assets/social-icons/002-twitter.svg");
+
+}
+
+.header-social-media__icons li:nth-child(3) {
+    background-image: url("../assets/social-icons/011-instagram.svg");
+
+}
+
+.header-social-media__icons li:nth-child(4) {
+    background-image: url("../assets/social-icons/010-linkedin.svg");
+
+}
+
+.header-social-media__icons li:nth-child(5) {
+    background-image: url("../assets/social-icons/008-youtube.svg");
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav a {
+    margin: 0 40px;
+}
+
+nav a:nth-child(1) {
+    width: 200px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../assets/Logo-negro.png");
+}
+
+nav a:nth-child(2) {
+    margin-right: 70px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+}
